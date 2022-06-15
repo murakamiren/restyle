@@ -1,3 +1,5 @@
+import { Dimensions } from "react-native";
+
 const palette = {
 	white: "#F0F2F3",
 	black: "#0B0B0B",
@@ -40,6 +42,14 @@ export const theme = {
 			fontSize: 12,
 			lineHeight: 24,
 			color: "black",
+		},
+	},
+	cardVariants: {
+		base: {
+			width: Dimensions.get("window").width * 0.9,
+			padding: "m",
+			marginTop: "m",
+			borderRadius: 12,
 		},
 	},
 };
