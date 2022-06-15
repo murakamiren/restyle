@@ -8,7 +8,7 @@ export const theme = {
 	colors: {
 		mainBackgroundColor: palette.white,
 		textHeader: palette.blue,
-		textBody: palette.black,
+		black: palette.black,
 	},
 	spacing: {
 		s: 8,
@@ -22,12 +22,24 @@ export const theme = {
 	},
 	textVariants: {
 		header: {
-			fontSize: 40,
-			color: "textHeader",
+			// fontFamily: "ShopifySans-Bold",
+			fontWeight: "bold",
+			fontSize: 34,
+			lineHeight: 42.5,
+			color: "black",
+		},
+		subheader: {
+			// fontFamily: "ShopifySans-SemiBold",
+			fontWeight: "600",
+			fontSize: 28,
+			lineHeight: 36,
+			color: "black",
 		},
 		body: {
-			fontSize: 24,
-			color: "textBody",
+			// fontFamily: "ShopifySans",
+			fontSize: 12,
+			lineHeight: 24,
+			color: "black",
 		},
 	},
 };

@@ -8,7 +8,7 @@ export default function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<Box flex={1} justifyContent="center" alignItems="center">
-				<Text>Open up App.tsx to start working on your app!</Text>
+				<Text variant="body">Open up App.tsx to start working on your app!</Text>
 				<StatusBar style="auto" />
 			</Box>
 		</ThemeProvider>
