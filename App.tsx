@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@shopify/restyle";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import { Box } from "./src/components/box";
+import { Text } from "./src/components/text";
 import { theme } from "./src/theme/theme";
 
 export default function App() {
